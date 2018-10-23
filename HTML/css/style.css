@@ -1,0 +1,995 @@
+@import url("animate.css");
+@import url("bootstrap.min.css");
+
+/*Import Google fonts*/
+/*for navbar*/
+@import url('https://fonts.googleapis.com/css?family=Josefin+Sans');
+/*for P*/
+@import url('https://fonts.googleapis.com/css?family=Open+Sans');
+@import url('https://fonts.googleapis.com/css?family=Cinzel');
+@import url('https://fonts.googleapis.com/css?family=Bungee+Inline');
+@import url('https://fonts.googleapis.com/css?family=Lora');
+@import url('https://fonts.googleapis.com/css?family=Shrikhand');
+
+/*===========================Global Css Starts==========================*/
+body{
+    margin: 0;
+    padding-top: 84px;
+    font-size:18px;
+    position: relative;
+}
+a{
+    color: white;
+}
+p{
+    font-family: 'Cinzel', serif;
+
+}
+h1,h2,h3,h4,h5{
+    font-family: 'Lora', serif;
+}
+/*============================Global Css End============================*/
+
+
+/*=================================Header CSS  Starts=========================*/
+header{
+    background-color: black;
+}
+.navbar {
+    min-height: 50px;
+    line-height: 50px;
+    background: transparent;
+    z-index: 1030;
+    transition: 1s;
+    font-family: 'Josefin Sans', sans-serif;
+}
+.navbar > a{
+    font-size: 30px;
+    font-family: 'Shrikhand', cursive;
+}
+.navbar-nav .active {
+    color: #ed89dd !important;
+}
+.navbar .navbar-brand {
+    width: 40px;
+}
+.navbar .nav-item {
+    /margin: 0 5px;
+    padding: 10px;
+    text-transform: uppercase;
+}
+.navbar .nav-item a {
+    color: white;
+    font-weight: 600;
+    font-size: 20px;
+}
+.navbar .nav-item a:hover{
+     background-color: #FE2712;
+     transition: 500ms ease-in-out;
+     border-radius: 5px;
+ }
+.navbar-nav .active {
+    background-color: #FE2712;
+    border-radius: 5px;
+    color: #fff !important;
+}
+.navbar .nav-link {
+    position: relative;
+    padding: 0;
+}
+/*=================================Header CSS  Ends=========================*/
+/*=================================Carousel Starts==========================*/
+/*Carousel Starts*/
+#carausel{
+    position: relative;
+}
+#carausel .carousel-caption{
+    position: absolute;
+    top:150px;
+    left: 150px;
+}
+#carausel .carousel-caption > p:first-child {
+    position: absolute;
+    top: 35px;
+    left: 55px;
+    font-size: 20px;
+    font-weight: bold;
+    visibility: visible; -webkit-animation-delay: 0.4s; -moz-animation-delay: 0.2s; animation-delay: 0.2s; transition: 2s;
+}
+#carausel .carousel-caption > h3 {
+    position: absolute;
+    top: 75px;
+    left: 50px;
+    font-size: 45px;
+    font-weight: bold;
+}
+#carausel .carousel-caption > h3 > span{
+    color: #FE2712;
+}
+#carausel .carousel-caption > p:nth-child(3) {
+    position: absolute;
+    top: 147px;
+    left: 53px;
+    width: 40%;
+    text-align: justify;
+    visibility: visible; -webkit-animation-delay: 0.4s; -moz-animation-delay: 0.2s; animation-delay: 0.2s; transition: 2s;
+}
+#carausel .carousel-caption > a > span {
+    position: absolute;
+    top: 264px;
+    left: 144px;
+    padding: 15px 55px;
+    background-color: #e1d7d7;
+    color: #2d2a2a;
+    border-radius: 50px;
+    box-shadow: 0px 4px 0px 0px gray;
+    font-family: 'Shrikhand', cursive;
+}
+#carausel .carousel-caption > a > span:hover{
+    background-color:  #FE2712;
+    transition: 500ms;
+    color: white;
+}
+/*=================================Carousel Ends==============================*/
+
+/*=================================About starts================================*/
+#about{
+    background-color: #f7f7f7;
+    padding-top: 7%;
+}
+#about figure > img{
+    border: 2px solid #FE2712;
+    padding: 5px;
+   visibility: visible;
+    -webkit-animation-delay: 0.4s;
+    -moz-animation-delay: 0.4s;
+    animation-delay: 0.4s;
+    transition: 4s;
+}
+#about figure > img:hover{
+    background-color: #FE2712;
+    -webkit-transform: scale(1.05);
+    transform: scale(1.05);
+    transition: 1s ease-in-out;
+    -webkit-transition: 1s ease-in-out;
+    -moz-transition: 1s ease-in-out;
+    -o-transition: 1s ease-in-out;
+}
+#about > .container > .row > div:last-child > h2 {
+    margin-top: 50px;
+    font-size: 48px;
+    text-transform: uppercase;
+    color: #9A9A9A;
+    font-weight: bold;
+    margin-bottom: 40px;
+    font-family: 'Bungee Inline', cursive;
+    visibility: visible;
+    -webkit-animation-delay: 0.4s;
+    -moz-animation-delay: 0.4s;
+    animation-delay: 0.4s;
+    transition: 4s;
+}
+#about > .container > .row > div:last-child > p {
+    color: #716969;
+    line-height: 30px;
+    margin-bottom: 40px;
+    visibility: visible;
+    -webkit-animation-delay: 0.4s;
+    -moz-animation-delay: 0.4s;
+    animation-delay: 0.4s;
+    transition: 4s;
+}
+#about > .container > .row > div:last-child > span  {
+    padding: 20px 65px;
+    background-color: #e1d7d7;
+    border-radius: 50px;
+    font-size: 20px;
+    box-shadow: 0px 2px 6px 0px gray;
+}
+#about > .container > .row > div:last-child > span > a{
+    color: #2d2a2a;
+    font-family: 'Shrikhand', cursive;
+    text-decoration: none;
+}
+#about > .container > .row > div:last-child >  span:hover{
+    background-color: #FE2712;
+    color: white;
+    transition: 500ms ease-in-out;
+    -webkit-transition: 1s ease-in-out;
+    -moz-transition: 1s ease-in-out;
+    -o-transition: 1s ease-in-out;
+}
+/*===================================About Ends=====================================*/
+
+/*===================================skill Starts======================================*/
+
+#skill{
+    background-image: url("../image/bg-1.jpg");
+    background-attachment: fixed;
+}
+#skill .row > div{
+    visibility: visible; -webkit-animation-delay: 0.4s; -moz-animation-delay: 0.2s; animation-delay: 0.2s; transition: 2s;
+}
+#skill .container > h2{
+    font-size: 48px;
+    text-transform: uppercase;
+    color: #FE2712;
+    font-weight: bold;
+    margin-bottom: 40px;
+    visibility: visible; -webkit-animation-delay: 0.4s; -moz-animation-delay: 0.2s; animation-delay: 0.2s; transition: 2s
+}
+#skill .container > .row > div > figure{
+    position: relative;
+}
+#skill .container > .row > div > figure > figcaption {
+    position: absolute;
+    top: 35%;
+    left: 22%;
+}
+#skill .container > .row > div:first-child > figure > figcaption {
+    position: absolute;
+    top: 33%;
+    left: 22%;
+}
+#skill .container > .row > div:nth-child(3) > figure > figcaption {
+    position: absolute;
+    top: 35%;
+    left: 23%;
+}
+#skill .container > .row > div > figure > figcaption > h4{
+    font-size: 45px;
+    color: white;
+}
+#skill .container > .row > div > h3 {
+    position: relative;
+    left: -63px;
+    color: #55e2f3;
+    font-style: italic;
+    font-weight: bold;
+}
+
+/*======================================Skill Ssection Ends=========================*/
+
+/*=====================================My_services Starts===========================*/
+
+#my_services{
+   padding-top: 7%;
+    background-color: #f7f7f7;
+}
+#my_services .container > h2{
+    font-size: 48px;
+    text-transform: uppercase;
+    color: #9A9A9A;
+    font-weight: bold;
+    margin-bottom: 40px;
+    font-family: 'Bungee Inline', cursive;
+    visibility: visible;
+    -webkit-animation-delay: 0.4s;
+    -moz-animation-delay: 0.2s;
+    animation-delay: 0.2s;
+    transition: 2s;
+}
+#my_services .row > div:first-child{
+    margin-left: 7%;
+}
+#my_services .row > div:nth-child(4){
+    margin-left: 7%;
+}
+#my_services .row > div {
+    padding: 20px;
+    background-color: white;
+    margin-bottom: 15px;
+    margin-left: 3%;
+    box-shadow: 1px 2px 5px 0px gray;
+    visibility: visible;
+    -webkit-animation-delay: 1s;
+    -moz-animation-delay: 1s;
+    animation-delay: 1s;
+    transition: 2s;
+}
+#my_services .row > div > h2{
+    font-size: 24px;
+    text-transform: uppercase;
+    color: #9A9A9A;
+    font-weight: bold;
+    margin-bottom: 20px;
+    text-align: center;
+}
+#my_services .row > div > p{
+    color: #716969;
+    line-height: 30px;
+    margin-bottom: 20px;
+}
+#my_services .row > div span:nth-child(4) > a{
+    padding: 10px;
+    background-color: #e1d7d7;
+    color: #2d2a2a;
+    border-radius: 50px;
+    font-size: 20px;
+    box-shadow: 0px 2px 6px 0px gray;
+    margin-left: 20%;
+    font-family: 'Shrikhand', cursive;
+    text-decoration: none;
+
+}
+#my_services .row > div > span:nth-child(4):hover > a{
+    background-color: #FE2712;
+    color: white;
+    transition: 500ms ease-in-out;
+    -webkit-transition: 1s ease-in-out;
+    -moz-transition: 1s ease-in-out;
+    -o-transition: 1s ease-in-out;
+}
+
+/*=====================================My Services Ends===================================*/
+
+
+/*==================================counter section starts===================================*/
+#counter{
+    padding: 50px;
+    padding-left: 200px;
+    background-color: black;
+    color: white;
+}
+#counter .row > div{
+    visibility: visible; -webkit-animation-delay: 0.4s; -moz-animation-delay: 0.2s; animation-delay: 0.2s; transition: 2s;
+}
+#counter div > div > div > span > .fa-check {
+    color: red;
+    margin-left: 19%;
+    font-size: 63px;
+}
+#counter div > div > div > h2 {
+    margin-top: 5%;
+    margin-left: 2%;
+    /*color: brown;*/
+    border: 1px solid #efefef;
+    width: 50%;
+    padding: 10px 55px;
+}
+#counter div > div > div:first-child > p {
+    font-size: 23px;
+    text-transform: uppercase;
+}
+#counter div > div > div > span > .fa-heart {
+    color: red;
+    margin-left: 19%;
+    font-size: 63px;
+}
+#counter div > div > div:nth-child(2) > p {
+    font-size: 23px;
+    text-transform: uppercase;
+    margin-left: 10%;
+}
+#counter div > div > div > span > .fa-users {
+    color: red;
+    margin-left: 14%;
+    font-size: 63px;
+}
+#counter div > div > div:last-child > p {
+    font-size: 23px;
+    text-transform: uppercase;
+    margin-left: 3%;
+}
+/*================================counter section Ends=================================*/
+
+/*==================================Testimonial Section starts=========================*/
+
+#testimonial{
+    /*    background: rgba(226,226,226,1);
+        background: -moz-linear-gradient(45deg, rgba(226,226,226,1) 0%, rgba(243,243,243,1) 57%, rgba(244,244,244,1) 62%, rgba(255,255,255,1) 100%);
+        background: -webkit-gradient(left bottom, right top, color-stop(0%, rgba(226,226,226,1)), color-stop(57%, rgba(243,243,243,1)), color-stop(62%, rgba(244,244,244,1)), color-stop(100%, rgba(255,255,255,1)));
+        background: -webkit-linear-gradient(45deg, rgba(226,226,226,1) 0%, rgba(243,243,243,1) 57%, rgba(244,244,244,1) 62%, rgba(255,255,255,1) 100%);
+        background: -o-linear-gradient(45deg, rgba(226,226,226,1) 0%, rgba(243,243,243,1) 57%, rgba(244,244,244,1) 62%, rgba(255,255,255,1) 100%);
+        background: -ms-linear-gradient(45deg, rgba(226,226,226,1) 0%, rgba(243,243,243,1) 57%, rgba(244,244,244,1) 62%, rgba(255,255,255,1) 100%);
+        background: linear-gradient(45deg, rgba(226,226,226,1) 0%, rgba(243,243,243,1) 57%, rgba(244,244,244,1) 62%, rgba(255,255,255,1) 100%);
+        filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#e2e2e2', endColorstr='#ffffff', GradientType=1 );*/
+    background-image: url("../image/Parallax-background.jpg");
+    padding: 35px;
+}
+#testimonial > .container > h2{
+    font-size: 48px;
+    text-transform: uppercase;
+    color: #fdfdfd;
+    font-weight: bold;
+    margin-bottom: 10px;
+    margin-top: 7%;
+    font-family: 'Bungee Inline', cursive;
+    visibility: visible;
+    -webkit-animation-delay: 1s;
+    -moz-animation-delay: 1s;
+    animation-delay: 1s;
+    transition: 2s;
+}
+#testimonial > .container > p {
+    font-size: 20px;
+    letter-spacing: 7px;
+    color: #f7f7f7;
+    margin-bottom: 5%;
+}
+#testimonial .carousel-inner > .carousel-item > img {
+    margin-left: 40%;
+    margin-bottom: 5%;
+}
+#testimonial .carousel-inner > .carousel-item > p:nth-child(2) {
+    line-height: 35px;
+    text-align: justify;
+    color: #f1f1f1;
+}
+#testimonial .carousel-inner > .carousel-item > span {
+    margin-left: 49%;
+    color: #f1f1f1;
+}
+#testimonial .carousel-inner > .carousel-item > span > i{
+    font-size: 20px;
+}
+#testimonial  .carousel-inner > .carousel-item > p:nth-child(4) {
+    font-size: 30px;
+    color: #f1f1f1;
+    font-style: italic;
+}
+#testimonial .carousel-inner > .carousel-item > p:nth-child(5){
+    color: #f1f1f1;
+    font-style: italic;
+    margin-bottom: 50px;
+}
+
+
+/*====================================Testimonial Section Ends===========================*/
+
+
+/*========================================recent project starts===========================*/
+/*gallery*/
+#gallery{
+    padding: 150px 0;
+    margin: 0 auto;
+    height: auto;
+    background-color: #F7F7F7;
+}
+#gallery h2{
+    font-family: 'Shrikhand', cursive;
+    font-size: 41px;
+    color: #605154;
+    font-weight: 700;
+    text-transform: uppercase;
+    margin: 0 0 20px;
+    visibility: visible; -webkit-animation-delay: 0.4s; -moz-animation-delay: 0.2s; animation-delay: 0.2s; transition: 2s;
+}
+#gallery p{
+    font-size: 18px;
+    margin-bottom: 60px;
+    color: red;
+    text-transform: uppercase;
+    font-family: 'Varela Round', sans-serif;
+    letter-spacing: 3px;
+}
+#gallery nav ul li{
+    list-style-type: none;
+    display: inline-block;
+    background-color: transparent;
+    border: 2px solid transparent;
+    border-radius: 0;
+    font-family: 'Roboto Slab', serif;
+    color: #29c0d4;
+    cursor: pointer;
+    padding: 16px 30px;
+    font-size: 17px;
+    text-transform: uppercase;
+    transition: 0.8s ease;
+    font-weight: bold;
+}
+#gallery nav ul li:hover {
+    background-color: transparent;
+    color: #222;
+    border: 2px solid #fa4b74;
+}
+#gallery .container-fluid .col-md-3 img{
+    margin-top: 30px;
+}
+#gallery .photo-rap {
+    position: relative;
+    width: 100%;
+}
+#gallery .photo-text .fa, .photo-text .fa:visited, .photo-text .fa:active, .photo-text .fa:focus {
+    color: #ffab3b;
+    margin: auto 5px;
+}
+#gallery .photo-text .fa:hover {
+    color: #205cff;
+}
+#gallery .photo-overlay {
+    position: absolute;
+    bottom: 0;
+    left: 0;
+    right: 0;
+    background-color: rgba(0, 0, 0, 0.7);
+    overflow: hidden;
+    width: 0;
+    height: 100%;
+    transition: .7s ease;
+}
+#gallery .photo-rap:hover .photo-overlay {
+    width: 100%;
+}
+#gallery .photo-text {
+    white-space: nowrap;
+    color: white;
+    font-size: 35px;
+    position: absolute;
+    overflow: hidden;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    -ms-transform: translate(-50%, -50%);
+    -webkit-transform: translate(-50%, -50%);
+}
+/*=========================================recent project ends=================================*/
+
+/*========================================Contact Starts==========================================*/
+#contact{
+    padding: 50px 0;
+    margin: 0 auto;
+    height: auto;
+   /* background-color: #F7F7F7;*/
+    background-image: url("../image/parallax.jpg");
+}
+#contact .form-control {
+    border: 0px solid #ced4da;
+    border-bottom: 1px solid #e6d9d9;
+}
+#contact .form-control:focus {
+    background-color: #f3f3f3;
+    outline: 0;
+    box-shadow: 0 0 0 0;
+}
+#contact > .container > .row > div:first-child{
+    background-color: white;
+    padding: 50px;
+}
+#contact .row > div:first-child h3{
+    font-size: 35px;
+    text-transform: uppercase;
+    color: #9A9A9A;
+    font-weight: bold;
+    margin-bottom: 40px;
+}
+#contact form div{
+    margin-bottom: 20px;
+}
+#contact form div:nth-child(4) .form-control{
+    height: 100px;
+    border-bottom: 1px solid #e6d9d9;
+}
+#contact > .container > .row > div:last-child{
+    background-color: white;
+    padding:50px;
+    margin-left: 3%;
+}
+#contact > .container > .row > div:last-child h3{
+    font-size: 35px;
+    text-transform: uppercase;
+    color: #9A9A9A;
+    font-weight: bold;
+    margin-bottom: 40px;
+}
+#contact > .container > .row > div:last-child > div > div:nth-child(2) {
+    padding: 36px 0 19px 15px;
+    border: 1px solid #eae0e0;
+    margin-bottom: 30px;
+}
+#contact > .container > .row > div:last-child > div > div:nth-child(2) > div > i {
+    color: #cecbcb;
+    margin-left: -15px;
+    font-size: 50px;
+}
+#contact > .container > .row > div:last-child > div > div:nth-child(2) > div > address > em {
+    color: #B0A1A1;
+    font-size: 22px;
+    margin-left: -10px;
+    display: block;
+}
+#contact > .container > .row > div:last-child > div > div:nth-child(2) > div > address > em:last-child {
+    color: #B0A1A1;
+    font-size: 20px;
+    margin-left: -10px;
+    display: block;
+}
+#contact > .container > .row > div:last-child > div > div:last-child {
+    padding: 36px 0 19px 15px;
+    border: 1px solid #eae0e0;
+    margin-bottom: 30px;
+}
+#contact > .container > .row > div:last-child > div > div:last-child > div > i {
+    color: #cecbcb;
+    margin-left: -15px;
+    font-size: 50px;
+}
+#contact > .container > .row > div:last-child > div > div:last-child > div > address > em {
+    color: #B0A1A1;
+    font-size: 17px;
+    margin-left: -10px;
+    display: block;
+}
+#contact > .container > .row > div:last-child > div > div:last-child > div > address > em:last-child {
+    color: #B0A1A1;
+    font-size: 17px;
+    margin-left: -10px;
+    display: block;
+}
+#contact iframe{
+    width:100%;
+    height:450px;
+    border: 0;
+}
+/*=============================================Contact Ends=======================================*/
+
+/*=======================================Footer starts=======================================*/
+footer{
+    background-color: black;
+    /height: 100px;
+}
+footer h5{
+    color: white;
+    padding: 30px;
+}
+footer .social{
+    margin-top: 3%;
+}
+footer .social > h3{
+    margin-right: 3%;
+    color: grey;
+    font-family: 'Roboto Slab', serif;
+}
+footer  a {
+    text-decoration: none;
+}
+footer  a > i {
+    margin-right: 17px;
+    font-size: 28px;
+}
+footer h3 > i {
+    font-size: 20px;
+    color: grey;
+}
+/*========================================Footer ends============================================*/
+
+
+
+
+
+
+/*=====================================Responsive CSS====================================*/
+@media (min-width: 280px) and (max-width: 319px){
+    /*Global Css*/
+    body {
+        margin: 0;
+        padding-top: 76px;
+    }
+
+    /*Carousel Section*/
+    #carausel .carousel-caption > p:first-child{
+        display: none;
+    }
+    #carausel .carousel-caption > h3 {
+        position: absolute;
+        top: -104px;
+        left: -113px;
+        font-size: 18px;
+        font-weight: bold;
+    }
+    #carausel .carousel-caption > a >  span{
+        display: none;
+    }
+    #carausel .carousel-caption > p:nth-child(3){
+        display: none;
+    }
+
+    /*Counter Section*/
+    #counter {
+        padding-left: 0;
+    }
+    #counter div > div > div > h2 {
+        margin-left: 10%;
+        padding: 10px 33px;
+    }
+
+    /*Testimonial Section*/
+    #testimonial > .container > h2 {
+        font-size: 28px;
+    }
+
+    /*Skill Section*/
+    #skill {
+        padding-top: 30px;
+    }
+    #skill .container > .row > div > h3 {
+        left: 0px;
+    }
+    /*My_services section*/
+    #my_services .row > div:first-child {
+        margin-left: 0;
+    }
+    #my_services .row > div:nth-child(4) {
+        margin-left: 0%;
+    }
+    #my_services .row > div {
+        margin-left: 0%;
+    }
+    /*Contact Section*/
+    #contact > .container > .row > div:last-child{
+        margin-left: 0;
+    }
+}
+@media only screen and (min-width: 320px) and (max-width: 480px){
+    body {
+        margin: 0;
+        padding-top: 76px;
+    }
+    #carausel .carousel-caption > p:first-child {
+        top: -135px;
+        left: -107px;
+        font-size: 20px;
+    }
+    #carausel .carousel-caption > h3 {
+        top: -110px;
+        left: -107px;
+        font-size: 23px;
+    }
+    #carausel .carousel-caption > p:nth-child(3) {
+       display: none;
+    }
+    #carausel .carousel-caption > a > span {
+        position: absolute;
+        top: -66px;
+        left: -100px;
+        padding: 5px;
+    }
+
+    /*About Section*/
+    #about > .container > .row > div:last-child > span {
+        margin-left: 20%;
+    }
+
+    /*Counter Section*/
+    #counter {
+       padding-left: 0;
+    }
+    #counter div > div > div > h2 {
+        margin-left: 10%;
+        padding: 10px 33px;
+    }
+
+    /*testimonial section*/
+    #testimonial > .container > h2 {
+        font-size: 36px;
+    }
+    #testimonial .carousel-inner > .carousel-item > img {
+        margin-left: 12%;
+    }
+
+
+    /*Skill Section*/
+    #skill {
+        padding-top: 30px;
+    }
+    #skill .container > .row > div > h3 {
+        left: 0px;
+    }
+    #skill .container > .row > div > figure > figcaption {
+        left: 15%;
+    } #skill .container > .row > div:first-child > figure > figcaption {
+        left: 19%;
+    }
+    #skill .container > .row > div:nth-child(3) > figure > figcaption {
+        left: 19%;
+    }
+    /*My_services section*/
+    #my_services .row > div:first-child {
+        margin-left: 0;
+    }
+    #my_services .row > div:nth-child(4) {
+        margin-left: 0%;
+    }
+    #my_services .row > div {
+        margin-left: 0%;
+    }
+    #my_services .row > div > a > span:last-child {
+        margin-left: 32%;
+    }
+    /*Contact Section*/
+    #contact > .container > .row > div:last-child{
+        margin-left: 0;
+    }
+}
+@media (min-width: 481px) and (max-width: 575.98px){
+    body {
+        margin: 0;
+        padding-top: 76px;
+    }
+    #carausel .carousel-caption > p:first-child {
+        top: -123px;
+        left: -107px;
+        font-size: 20px;
+    }
+    #carausel .carousel-caption > h3 {
+        top: -85px;
+        left: -107px;
+        font-size: 25px;
+    }
+    #carausel .carousel-caption > p:nth-child(3) {
+        top: -54px;
+        left: -107px;
+        width:400px;
+    }
+    #carausel .carousel-caption > a >  span {
+        position: absolute;
+        top: -116px;
+        left: 182px;
+        padding: 5px;
+    }
+    /*About Section*/
+    #about > .container > .row > div:last-child > span {
+        margin-left: 20%;
+    }
+
+    /*Counter Section*/
+    #counter {
+        padding-left: 0;
+    }
+
+    /*Skill Section*/
+    #skill {
+        padding-top: 30px;
+    }
+    #skill .container > .row > div > h3 {
+        left: 0px;
+    }
+    #skill .container > .row > div > figure > figcaption {
+        top:33%;
+        left: 9%;
+    } #skill .container > .row > div:first-child > figure > figcaption {
+          left: 7%;
+      }
+    #skill .container > .row > div:nth-child(3) > figure > figcaption {
+        left: 7%;
+    }
+
+    /*My_services section*/
+    #my_services .row > div:first-child {
+        margin-left: 0;
+    }
+    #my_services .row > div:nth-child(4) {
+        margin-left: 0%;
+    }
+    #my_services .row > div {
+        margin-left: 0%;
+    }
+    #my_services .row > div > a > span:last-child {
+        margin-left: 35%;
+    }
+    /*Contact Section*/
+    #contact > .container > .row > div:last-child{
+        margin-left: 0;
+    }
+}
+@media (min-width: 576px) and (max-width: 767.98px){
+    body{
+        padding-top: 75px;
+    }
+    /*Carousel Caption*/
+    #carausel .carousel-caption > p:first-child {
+        top: -123px;
+        left: -107px;
+        font-size: 20px;
+    }
+    #carausel .carousel-caption > h3 {
+        top: -85px;
+        left: -107px;
+        font-size: 25px;
+    }
+    #carausel .carousel-caption > p:nth-child(3) {
+        top: -54px;
+        left: -107px;
+        width:400px;
+    }
+    #carausel .carousel-caption > a > span {
+        position: absolute;
+        top: 55px;
+        left: -100px;
+        padding: 5px;
+    }
+    /*About Section*/
+    #about > .container > .row > div:last-child > span {
+        margin-left: 20%;
+    }
+
+    /*Skill Section*/
+    #skill {
+        padding-top: 30px;
+    }
+    #skill .container > .row > div > h3 {
+        left: 0px;
+    }
+    #skill .container > .row > div > figure > figcaption {
+        top: 36%;
+        left: 24%;
+    }
+    #skill .container > .row > div:first-child > figure > figcaption {
+          left: 20%;
+      }
+    #skill .container > .row > div:nth-child(3) > figure > figcaption {
+        left: 22%;
+    }
+    /*My_services section*/
+    #my_services .row > div:first-child {
+        margin-left: 0;
+    }
+    #my_services .row > div:nth-child(4) {
+        margin-left: 0%;
+    }
+    #my_services .row > div {
+        margin-left: 0%;
+    }
+    #my_services .row > div > span:last-child {
+        margin-left: 35%;
+    }
+    /*Contact Section*/
+    #contact > .container > .row > div:last-child{
+        margin-left: 0;
+    }
+
+}
+@media (min-width: 768px) and (max-width: 991.98px){
+    body {
+        padding-top: 76px;
+    }
+    #carausel .carousel-caption > p:first-child {
+        top: -53px;
+        left: -107px;
+        font-size: 20px;
+    }
+    #carausel .carousel-caption > h3 {
+        top: -18px;
+        left: -107px;
+        font-size: 25px;
+    }
+    #carausel .carousel-caption > p:nth-child(3) {
+        top: 16px;
+        left: -107px;
+        width:400px;
+    }
+    #carausel .carousel-caption > a > span {
+        top: 140px;
+        padding: 10px;
+        left: -87px;
+    }
+
+    /*Skill section*/
+    #skill .container > h2{
+        padding-top: 32px;
+    }
+    #skill .container > .row > div > h3 {
+        left: 0;
+    }
+    #skill .col-md-3{
+        max-width: 50%;
+    }
+
+    /*My_services Section*/
+    #my_services .row > div > span:last-child {
+        padding: 7px;
+    }
+    #my_services .row > div > a > span:last-child{
+        margin-left: 0;
+    }
+    /*Contact Section*/
+    #contact > .container > .row > div:last-child{
+        margin-left: 0;
+    }
+
+}
+@media (min-width: 992px) and (max-width: 1170px){
+    #carausel .carousel-caption > p:nth-child(3) {
+         width: 400px;
+    }
+}
